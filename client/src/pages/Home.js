@@ -1,18 +1,15 @@
-import './Home.css';
-import React from 'react';
+import "./Home.css";
+import React from "react";
+
+import Navbar from "../components/Navbar";
 
 class Home extends React.Component {
-    render() {
-        return (
-            <div className="App">
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                    </p>
-            </div>
-            
-        );
-    }
-
+  render() {
+    return (
+      <div className="Home">
+        <Navbar></Navbar>
+      </div>
+    );
+  }
 }
-
 export default Home;
