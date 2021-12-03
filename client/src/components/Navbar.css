@@ -1,5 +1,17 @@
 .nav-wrapper {
-  padding: 1rem;
   background-color: white;
   height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding-left: 10rem;
+  display: inline-block;
 }
